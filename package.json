@@ -1,0 +1,20 @@
+{
+  "name": "hw-25-js-nodejs-george-dimov",
+  "version": "1.0.0",
+  "description": "Создайте на вашем github репозиторий по следующему шаблону HW#-name. Все результаты нужно запушить в ваш репозиторий и прикрепить ссылку на hillel портале.\r Создайте index.html в котором подключите js script.\r Создайте README.md с описанием задания.\r В задании реализовать модуль Person который реализует класс Person\r name, age, gendor, interests\r Реализовать модули Student and Teacher которые  реализуют классы. Данные классы должны наследоваться от Person. В данные модули нужно заимпортить модуль Person чтобы от него отнаследоваться.\r Class Teacher должен иметь дополнительное свойство subject.\r В файле server.js заимпортить модули Student and Teacher и создать инстансы (создать объекты с классов) student и techer. Затем вывести созданные объекты в консоль.\r Запускать с помощью nodejs в консоле: node server.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgesui/HW-25-JS-NodeJS-George-Dimov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgesui/HW-25-JS-NodeJS-George-Dimov/issues"
+  },
+  "homepage": "https://github.com/Georgesui/HW-25-JS-NodeJS-George-Dimov#readme"
+}
